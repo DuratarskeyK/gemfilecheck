@@ -52,12 +52,11 @@ gem 'google-tag-manager-rails', github: 'the-cocktail/google-tag-manager-rails',
 gem 'recaptcha'
 
 gem 'httparty'
-gem 'faraday', '~> 0.9.2'
-gem 'faraday-cookie_jar'
-gem 'faraday_middleware'
 
 gem 'cloudflare-rails'
 gem 'maxminddb'
 
 gem 'bootstrap-datepicker-rails'
 gem 'country_select', require: 'country_select_without_sort_alphabetical'
+
+gem 'bootsnap', '>= 1.4.2', require: false
